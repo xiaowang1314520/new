@@ -1,0 +1,29 @@
+header,h1,div,ul,li,ol,h2,h3,h4,p{
+	margin:0;
+	padding:0;
+}
+h2,h3,h1,h4{
+	font-weight:normal;
+}
+ol,ul,li{
+	list-style:none;
+}
+.fl{
+	float:left;
+}
+.fr{
+	float:right;
+}
+.clear-fix:after{
+	display:block;
+	content:'';
+	clear:both;
+}
+.clear-fix{
+	zoom:1;
+}
+a{
+	display:block;
+	text-decoration: none;
+	color:black;
+}

@@ -1,0 +1,225 @@
+.container {
+  width: 1020px;
+  margin: 0 auto; }
+
+header {
+  height: 88px;
+  position: relative; }
+  header h1 {
+    width: 164px;
+    height: 25px;
+    font-size: 16px;
+    background: url(../image/logo.png) no-repeat left;
+    background-size: 100%;
+    text-indent: -9999px;
+    position: absolute;
+    top: 50%;
+    margin-top: -12px; }
+  header ul {
+    position: absolute;
+    left: 220px;
+    top: 50%;
+    margin-top: -21px; }
+    header ul li {
+      float: left;
+      font-size: 14px; }
+      header ul li a {
+        padding: 15px; }
+      header ul li a:hover {
+        background: #333;
+        color: #fff; }
+    header ul .border {
+      width: 1px;
+      height: 12px;
+      border-left: 1px solid black;
+      padding: 0;
+      margin-top: 19px; }
+  header .nav-right {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    margin-top: -12px; }
+    header .nav-right img {
+      padding: 10px; }
+    header .nav-right a:hover {
+      background: #323232; }
+
+section {
+  margin: 55px 0;
+  height: 260px; }
+  section .left {
+    width: 425px;
+    height: 240px;
+    border-right: 1px solid #c0c0c0; }
+    section .left h2 {
+      font-size: 24px; }
+    section .left #p1 {
+      width: 339px;
+      height: 38px;
+      border: 1px solid black;
+      background: url(../image/img5.jpg) no-repeat 10px 10px;
+      margin: 30px 0 15px; }
+      section .left #p1 input {
+        height: 36px;
+        border: none;
+        margin-left: 42px;
+        outline: none; }
+    section .left #p2 {
+      width: 339px;
+      height: 38px;
+      border: 1px solid black;
+      background: url(../image/img6.jpg) no-repeat 10px 10px; }
+      section .left #p2 input {
+        border: none;
+        width: 216px;
+        height: 36px;
+        margin-left: 42px;
+        outline: none; }
+      section .left #p2 span {
+        font-size: 13px;
+        cursor: pointer; }
+    section .left .login {
+      width: 342px;
+      height: 40px;
+      background: #6031ba;
+      text-align: center;
+      line-height: 40px;
+      font-size: 15px;
+      color: #fff;
+      margin-top: 15px; }
+    section .left .login:hover {
+      background: #2531ba; }
+    section .left .new {
+      position: relative;
+      left: 284px;
+      top: 10px;
+      font-size: 12px;
+      color: #6031ba; }
+  section .right {
+    margin-left: 83px; }
+    section .right h3 {
+      height: 40px;
+      line-height: 40px;
+      font-size: 15px; }
+    section .right #right-ul {
+      font-size: 12px;
+      margin: 17px 0 15px;
+      width: 340px;
+      height: 32px;
+      border: 1px solid black;
+      border-bottom: none; }
+      section .right #right-ul li {
+        float: left;
+        width: 55.8px;
+        height: 32px;
+        line-height: 32px;
+        text-align: center;
+        border-right: 1px solid black;
+        border-bottom: 1px solid black; }
+      section .right #right-ul .end {
+        border-right: none; }
+      section .right #right-ul li:hover {
+        background: #333;
+        color: #fff;
+        cursor: pointer; }
+      section .right #right-ul li.active {
+        border-bottom: none;
+        background: #fff;
+        cursor: default;
+        color: black; }
+    section .right #right-ol {
+      width: 344px;
+      height: 150px;
+      overflow: hidden; }
+    section .right ol li {
+      width: 344px;
+      height: 150px;
+      display: none; }
+    section .right li.active {
+      display: block; }
+
+.footer {
+  margin-top: 73px;
+  height: 457px;
+  padding-top: 54px;
+  background: #333; }
+  .footer .text {
+    display: block;
+    color: #fff;
+    font-size: 14px; }
+  .footer .msg {
+    height: 290px;
+    margin: 39px 0 49px; }
+    .footer .msg .left {
+      width: 190px;
+      height: 290px;
+      color: #e8e8e8;
+      font-size: 13px; }
+      .footer .msg .left span {
+        display: block; }
+      .footer .msg .left .left-a {
+        color: #e8e8e8; }
+      .footer .msg .left .left-a:hover {
+        color: #fff;
+        text-decoration: underline; }
+      .footer .msg .left .about {
+        margin: 44px 0 20px; }
+      .footer .msg .left .erweima {
+        height: 76px; }
+        .footer .msg .left .erweima .left {
+          width: 62px;
+          height: 12px;
+          background: url(../image/img3.jpg) no-repeat;
+          font-size: 13px;
+          color: #969798;
+          padding-top: 65px;
+          text-align: center; }
+        .footer .msg .left .erweima .right {
+          width: 62px;
+          height: 12px;
+          background: url(../image/weibo.jpg) no-repeat;
+          background-size: 100%;
+          font-size: 13px;
+          color: #969798;
+          padding-top: 65px;
+          text-align: center;
+          margin-left: 12px; }
+    .footer .msg ul {
+      width: 700px;
+      height: 290px; }
+      .footer .msg ul li {
+        width: 175px;
+        height: 290px;
+        float: left; }
+        .footer .msg ul li .titl {
+          font-size: 14px;
+          color: #fff;
+          margin-bottom: 18px; }
+        .footer .msg ul li .tit2 {
+          font-size: 14px;
+          color: #fff;
+          margin: 18px 0; }
+        .footer .msg ul li .tit3 {
+          font-size: 14px;
+          color: #fff;
+          margin: 38px 0 18px; }
+        .footer .msg ul li a {
+          font-size: 12px;
+          color: #969798; }
+        .footer .msg ul li a:hover {
+          color: #fff;
+          text-decoration: underline; }
+  .footer .bottom {
+    height: 56px;
+    background: #2e2e2e;
+    line-height: 56px;
+    color: #999;
+    padding-left: 250px;
+    font-size: 12px; }
+  .footer .qq {
+    width: 36px;
+    height: 36px;
+    background: url(../image/qq.png) no-repeat;
+    position: fixed;
+    right: 32px;
+    bottom: 71px; }
